@@ -20,7 +20,7 @@ let winPattern = [
    [2,5,8],
    [2,4,6],
    [3,4,5],
-   [6,4,5]   
+   [6,7,8]   
 
 ];
 
@@ -61,6 +61,7 @@ boxes.forEach((box) => {
   });
 
 });
+
 
 const disableBoxes =()=>{
 
@@ -132,8 +133,8 @@ const checkWinner =()=>{
   
 };
 
-newGameBtn.addEventListener("click", resetGame)
-resetBtn.addEventListener("click", resetGame)
+newGameBtn.addEventListener("click", resetGame);
+resetBtn.addEventListener("click", resetGame);
 
 
 
